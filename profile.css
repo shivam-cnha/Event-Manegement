@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(120deg,#c7e4f2,#4a474b);
+    height: 100vh;
+    overflow: hidden;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80vw;
+    height: 70vh;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    border-bottom: 1px solid silver;
+}
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+.center.left{
+    width: 40%;
+    background: linear-gradient(120deg,#82888b,#2e2c2f);
+}
+.left{
+    width: 40%;
+    text-align: center;
+    background: linear-gradient(120deg,#4a474b,#c7e4f2);
+    
+}
+.right.details{
+    display: flex;
+    text-align: center;
+}
+.right.projects{
+    display: flex;
+    text-align: center;
+}
+.right .data{
+    display: inline-block;
+    margin: 2vw;
+}
+
